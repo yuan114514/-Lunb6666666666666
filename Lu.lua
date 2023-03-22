@@ -24,7 +24,7 @@ wait(0.1)
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("鲁", "BloodTheme")
+local Window = Library.CreateLib("鲁", "Synapse")
 
 local Tab = Window:NewTab("菜单")
 
