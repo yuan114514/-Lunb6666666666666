@@ -5,7 +5,7 @@
 
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "BY: bilibili难忘的水母";
+    Title = "QQ交流群599253315";
     Text = "欢迎";
     Duration = "2";
     callbakc = bindableFunction;
@@ -16,7 +16,7 @@ game.StarterGui:SetCore("SendNotification", {
 wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = "正在加载 鲁"; -- the title 
-Text = "ez"; -- what the text says 
+Text = "我的QQ1196302946"; -- what the text says 
 Duration = 2; -- how long the notification should in secounds
 })
  
