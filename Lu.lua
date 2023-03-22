@@ -22,9 +22,9 @@ Duration = 2; -- how long the notification should in secounds
  
 wait(0.1)
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bnb.lua"))()
 
-local Window = Library.CreateLib("鲁", "Synapse")
+local Window = Library.CreateLib("鲁", "ReboundTheme")
 
 local Tab = Window:NewTab("菜单")
 
