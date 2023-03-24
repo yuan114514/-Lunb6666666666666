@@ -22,18 +22,6 @@ Duration = 2; -- how long the notification should in secounds
  
 wait(0.1)
 
-restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
-b03d = Instance.new("TextButton",restorebutton)
-b03d.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
-b03d.BorderColor3 = Color3.new(0/255,255/255,255/255)
-b03d.BorderSizePixel = 3
-b03d.Position = UDim2.new(1,-103,1,-23)
-b03d.Size = UDim2.new(0,100,0,20)
-b03d.Font = "SourceSans"
-b03d.FontSize = "Size25"
-b03d.Text = "鲁"
-b03d.TextColor3 = Color3.new(255/255,255/255,255/255)
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bnb.lua"))()
 
 local Window = Library.CreateLib("鲁", "ReboundTheme")
@@ -1534,3 +1522,15 @@ v.GearAccels[5] = Accel
 end
 end
 end)
+
+restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
+b03d = Instance.new("TextButton",restorebutton)
+b03d.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
+b03d.BorderColor3 = Color3.new(0/255,255/255,255/255)
+b03d.BorderSizePixel = 3
+b03d.Position = UDim2.new(1,-103,1,-23)
+b03d.Size = UDim2.new(0,100,0,20)
+b03d.Font = "SourceSans"
+b03d.FontSize = "Size25"
+b03d.Text = "lu"
+b03d.TextColor3 = Color3.new(255/255,255/255,255/255)
