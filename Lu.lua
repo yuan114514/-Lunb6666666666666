@@ -3,7 +3,7 @@
 
 
 
-
+if getgenv().key=="鲁" then
 game.StarterGui:SetCore("SendNotification", {
     Title = "QQ交流群599253315";
     Text = "欢迎";
@@ -1534,3 +1534,6 @@ b03d.Font = "SourceSans"
 b03d.FontSize = "Size18"
 b03d.Text = "lu"
 b03d.TextColor3 = Color3.new(255/255,255/255,255/255)
+else
+    game.Players.LocalPlayer:Kick("错误的密钥")
+end
